@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'home.dart';
 void main(){
   runApp(MyApp());
 }
@@ -10,13 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "First App",
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text('Starting to use flutter again.'),
-          ),
-        ),
-      )
+      home: HomePage(),
     );
   }
 }

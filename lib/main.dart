@@ -1,6 +1,7 @@
 import 'package:codepur_second_try_firstapp/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'pages/home.dart';
+import 'pages/checking.dart';
 void main(){
   runApp(MyApp());
 }
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       routes: {
-        "/": (context) => LoginPage(),
+        "/": (context) => Checking(),
         "/home": (context) => HomePage(),
         "/login": (context) => LoginPage(),
       },
